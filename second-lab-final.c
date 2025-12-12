@@ -157,7 +157,7 @@ void event_loop(int listen_fd, const sigset_t *pselect_unmask) {
                 }
             }
         }
-    } /* for */
+    }
 }
 
 int main(void) {
@@ -191,3 +191,4 @@ int main(void) {
 
     return EXIT_SUCCESS;
 }
+
